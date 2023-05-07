@@ -20,6 +20,10 @@ with open('hw13.txt', 'w') as writer:
     writer.write("Author: Andrew Klimakhin\n")
     writer.write(f"Starting time: {current_dateTime}\n")
     writer.write(f"Pancetta word counter: {count}\n")
-    for p in data:
-        writer.write(f"{p}\n")
-    # writer.write("\n".join(data))
+    writer.write("\n".join(data))
+    writer.close()
+#
+# for p in data:
+#
+#
+# writer.write(f"{p}\n")
